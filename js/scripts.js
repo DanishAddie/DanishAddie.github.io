@@ -102,4 +102,12 @@
         });
     });
 
+    // Load additional certifications
+    $('#view-more-certifications').click(function(e){
+        e.preventDefault();
+        $(this).fadeOut(300, function() {
+            $('#more-certifications').fadeIn(300);
+        });
+    });
+
 })(jQuery);
