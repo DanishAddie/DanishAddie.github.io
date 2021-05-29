@@ -970,6 +970,12 @@ footer {
         }
     }
 
+    .certification-block {
+        h3, span {
+            float: none;
+        }
+    }
+
     .project-image {
         display: none;
     }
