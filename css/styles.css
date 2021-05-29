@@ -489,14 +489,12 @@
 	 padding: 30px 15px;
 	 transform: none;
 }
-
- .small-img{
-   width:60%;
-   height: auto;
-   margin: 0 0 15px 0;
-   display:none;
- }
-
+ .small-img {
+	 width: 60%;
+	 height: auto;
+	 margin: 0 0 15px 0;
+	 display: none;
+}
  #more-projects {
 	 display: none;
 }
@@ -735,9 +733,9 @@
 	 .social {
 		 text-align: center;
 	}
-  .small-img{
-      display:inline;
-  }
+	 .small-img {
+		 display: inline;
+	}
 }
  @media only screen and (max-width: 480px) {
 	 #lead-content h1 {
@@ -751,3 +749,4 @@
 		 padding: 5px 10px;
 	}
 }
+ 
