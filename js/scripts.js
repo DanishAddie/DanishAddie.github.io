@@ -94,4 +94,12 @@
         });
     });
 
+    // Load additional achievements
+    $('#view-more-achievements').click(function(e){
+        e.preventDefault();
+        $(this).fadeOut(300, function() {
+            $('#more-achievements').fadeIn(300);
+        });
+    });
+
 })(jQuery);
