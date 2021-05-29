@@ -791,9 +791,9 @@ footer {
 }
 
 /*
-    ---------------------------------------
-    ----- 11. Optional Section Styles -----
-    ---------------------------------------
+    --------------------------------------------
+    ----- 11. Certification Section Styles -----
+    --------------------------------------------
 */
 
 #certification {
@@ -811,24 +811,30 @@ footer {
     margin: 0 auto 30px auto;
     padding: 15px;
     border: 1px solid $border;
-    background: #fff;
     text-align: left;
+    background: #fff;
 
     h3 {
         font-weight: 500;
-        margin: 0 0 15px 0;
+        float: left;
+        margin: 0;
         color: $heading;
+    }
+
+    span {
+        color: $text;
+        float: right;
     }
 
     h4 {
         color: $text;
         clear: both;
         font-weight: 500;
-        margin: 0 0 15px 0;
+        margin: 0 0 0 0;
     }
 
     p, ul {
-        margin: 0 0 15px 0;
+        margin: 0;
         color: $text;
         font-size: 0.9em;
     }
@@ -836,6 +842,9 @@ footer {
     ul {
         padding: 0 0 0 15px;
     }
+}
+#more-certifications {
+    display: none;
 }
 
 /*
