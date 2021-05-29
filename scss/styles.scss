@@ -687,6 +687,11 @@ footer {
     }
 }
 
+.small-img{
+    margin: 0 0 15px 0;
+    display:none;
+}
+
 #more-projects {
     display: none;
 }
@@ -994,6 +999,10 @@ footer {
 
     .social {
         text-align: center;
+    }
+
+    .small-img{
+        display:inline;
     }
 
 }
