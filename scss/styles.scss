@@ -531,7 +531,7 @@ footer {
     p, ul {
         color: $text;
         font-size: 0.9em;
-        margin: 0;
+        margin-right: 1em;
     }
 }
 
@@ -865,7 +865,6 @@ footer {
         &:before, &:after {
             left: 23px;
         }
-
     }
 
     .vtimeline-date {
@@ -1003,6 +1002,12 @@ footer {
 
     .small-img{
         display:unset !important;
+    }
+    #education-timeline {
+        li{
+            margin-bottom: 1em;
+            font-size: 0.95em;
+        }
     }
 
 }
