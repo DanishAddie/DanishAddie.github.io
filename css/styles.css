@@ -367,7 +367,7 @@
  .vtimeline-content p, .vtimeline-content ul {
 	 color: #74808a;
 	 font-size: 0.9em;
-	 margin: 0;
+	 margin-right: 1em;
 }
  .vtimeline-point {
 	 position: relative;
@@ -489,12 +489,14 @@
 	 padding: 30px 15px;
 	 transform: none;
 }
- .small-img {
-	 width: 60%;
-	 height: auto;
-	 margin: 0 0 15px 0;
-	 display: none;
-}
+
+ .small-img{
+   width:60%;
+   height: auto;
+   margin: 0 0 15px 0;
+   display:none;
+ }
+
  #more-projects {
 	 display: none;
 }
@@ -733,9 +735,13 @@
 	 .social {
 		 text-align: center;
 	}
-	 .small-img {
-		 display: unset !important;
-	}
+  .small-img{
+      display:unset !important;
+  }
+  #education-timeline li {
+    margin-bottom: 1em;
+    font-size: 0.95em;
+ }
 }
  @media only screen and (max-width: 480px) {
 	 #lead-content h1 {
@@ -749,4 +755,3 @@
 		 padding: 5px 10px;
 	}
 }
- 
