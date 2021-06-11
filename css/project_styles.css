@@ -1,0 +1,21 @@
+iframe {
+   display: block;
+	 width: 100px;
+	 height: 50px;
+}
+
+.frame{
+    padding: 50px 15px;
+    text-align: center;
+}
+
+.video{
+    height:33.75vw;
+    width:60vw;
+    margin: 15px auto 15px auto;
+}
+.document{
+    height:90vh;
+    width:40vw;
+    margin: 15px auto 15px auto;
+}
