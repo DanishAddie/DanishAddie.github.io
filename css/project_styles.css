@@ -14,6 +14,7 @@ iframe {
     width:60vw;
     margin: 15px auto 15px auto;
 }
+
 .document{
     height:44vw;
     width:40vw;
@@ -31,5 +32,9 @@ iframe {
     .document{
       height:113.1429vw;
       width:80vw;
+    }
+    .video{
+        height:45vw;
+        width:80vw;
     }
 }
