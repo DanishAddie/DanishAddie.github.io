@@ -14,11 +14,17 @@ iframe {
     width:60vw;
     margin: 15px auto 15px auto;
 }
-
 .document{
     height:44vw;
     width:40vw;
     margin: 15px auto 15px auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .document{
+      height:84.8671vw;
+      width:60vw;
+    }
 }
 
 @media only screen and (max-width: 480px) {
