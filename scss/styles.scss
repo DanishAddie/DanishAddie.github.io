@@ -577,7 +577,7 @@ footer {
 */
 
 #achievement {
-    padding: 50px 15px 20px 15px;
+    padding: 50px 15px 45px 15px;
     border-bottom: 1px solid $border;
     text-align: center;
 
@@ -688,8 +688,11 @@ footer {
 }
 
 .small-img{
-    margin: 0 0 15px 0;
-    display:none;
+  width:60%;
+  max-width: 250px;
+  height: auto;
+  margin: 0 0 15px 0;
+  display:none;
 }
 
 #more-projects {
